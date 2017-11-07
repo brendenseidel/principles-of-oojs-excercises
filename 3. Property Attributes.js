@@ -68,7 +68,7 @@ console.log("The 'members' property exists in the 'beatles' object: " + ("member
 
 // Is 'members' enumerable --> false
 console.log("Beatles 'members' property is enumerable: " + beatles.propertyIsEnumerable("members")); // false
-console.log(beatles);
+console.log(beatles); // {}
 
 // Try to delete the 'members' property
 delete beatles.members; 
@@ -76,9 +76,9 @@ console.log("The 'members' property still exists in the 'beatles' object after t
 
 // Try to change the value of the 'members' property
 beatles.members = "Yoko";
-console.log("The beatles members include " + beatles.members.join(', '));
+console.log("The beatles members include " + beatles.members.join(', ')); // John, Paul, George, Ringo
 
 // Interestingly, even though the propety is not
 // writable, we can still push a value to an array
 beatles.members.push("George Martin");
-console.log("The beatles members include " + beatles.members.join(', '));
+console.log("The beatles members include " + beatles.members.join(', ')); // John, Paul, George, Ringo, George Martin
