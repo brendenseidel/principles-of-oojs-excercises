@@ -2,6 +2,9 @@
 // 3.7.1 Preventing Extensions
 // ---------------------------
 
+// New properties cannot be added, but existing
+// properties can be configured
+
 var painting = {
     title: "Mona Lisa"
 };
