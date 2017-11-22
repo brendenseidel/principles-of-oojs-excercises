@@ -2,10 +2,6 @@
 // 4.2.3 Prototypes
 // ---------------------
 
-// ---------------------
-// 4.2.2 Prototypes
-// ---------------------
-
 function Bicycle (initialSpeed, make) {
   this.speed = initialSpeed;
   this.make = make;
@@ -55,7 +51,7 @@ Bicycle.prototype.stop = function() {
 };
 Bicycle.prototype.bell = function() {
   console.log("ring ring");
-}
+};
 //Object.isFrozen(bike1);
 bike1.stop(); // doesn't work
 bike1.printSpeed(); // 12

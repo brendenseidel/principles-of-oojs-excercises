@@ -6,7 +6,7 @@
 // These create the same object
 var soccerClub = {
   name: "Crew SC"
-}
+};
 
 console.log(soccerClub.name); // Crew SC
 
@@ -17,7 +17,7 @@ var soccerClub = Object.create(Object.prototype, {
     value: "Crew SC",
     writable: true
   }
-})
+});
 
 console.log(soccerClub.name); // Crew SC
 
