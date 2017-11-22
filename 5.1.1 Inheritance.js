@@ -29,7 +29,7 @@ console.log(now > earlier); // true
 
 console.log("Mountain = " + mountain); // Mountain = [object Object]
 
-// Modifying to string to return the mountain's
+// Modifying toString() to return the mountain's name
 mountain.toString = function() {
   return "[Mountain: " + this.name + "]";
 };
