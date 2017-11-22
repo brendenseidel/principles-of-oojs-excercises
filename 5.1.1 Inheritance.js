@@ -41,4 +41,3 @@ console.log("Mountain = " + mountain); // Mountain = [Mountain Denali]
 // these are doing the same thing
 console.log("The elevation of " + mountain.name + " is " + mountain.elevation + " feet.");
 console.log("The elevation of " + mountain.name + " is " + mountain.elevation.toString() + " feet.");
-
