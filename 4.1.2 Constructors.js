@@ -2,6 +2,17 @@
 // 4.1.2 Constructors
 // ---------------------
 
+// This class and the constructor
+// function below are equivalent
+class PersonClass {
+  constructor(name) {
+    this.name = name;
+    this.sayName = function () {
+      console.log(this.name);
+    };
+  }
+}
+
 function Person(name) {
   this.name = name;
   this.sayName = function () {
