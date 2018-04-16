@@ -34,7 +34,7 @@ mountain.toString = function() {
   return "[Mountain: " + this.name + "]";
 };
 
-console.log("Mountain = " + mountain); // Mountain = [Mountain Denali]
+console.log("Mountain = " + mountain); // Mountain = [Mountain: Denali]
 
 // ----------------------------------
 
